@@ -1,0 +1,19 @@
+.phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.phone p {
+    margin: 0;
+    padding: 0.5rem;
+}
+
+#firstname,
+#middlename,
+#lastname,
+#birthplace,
+#address {
+    text-transform: capitalize;
+}

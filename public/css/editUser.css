@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.userform {
+    display: flex;
+    flex-direction: column;
+    width: 92%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 0.7rem;
+    border-radius: 0.5rem;
+
+}
+
+.main-container form .div-input {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.div-input label,
+.phone label {
+    width: 15rem;
+    text-align: right;
+    padding-right: 0.5rem;
+    font-weight: 500;
+}
+
+.name input,
+textarea {
+    text-transform: capitalize;
+}
+
+.div-input .phone {
+    display: flex;
+    flex-direction: row;
+}
+
+.div-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-button button,
+.div-button a {
+    width: 70%;
+}
+
+.error {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error p {
+    color: rgba(223, 10, 10, 0.782);
+}
+
+.phone {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.phone label {
+    width: 15rem;
+    text-align: right;
+}
+
+.phone div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.phone div p {
+    margin: 0;
+    padding-right: 1rem;
+    font-weight: 500;
+}
+
+.div-button {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .userform {
+        width: 70%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .userform {
+        width: 60%;
+    }
+}
