@@ -58,7 +58,7 @@
             </div>
             <div class="col-auto div-input confirmpassword">
                 <label for="confirmpassword">Confirm Password: </label>
-                <input type="password" class="form-control" id="confirmpassword" minlength="6" name="confirmpass" required>
+                <input type="password" class="form-control" id="confirmpassword" minlength="6" name="password_confirmation" required>
             </div>
             <div class="col-auto div-button">
               <button type="submit" class="btn btn-primary mb-3">Update</button>
