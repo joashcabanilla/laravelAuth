@@ -18,9 +18,12 @@
             </div>
         </div>
     </div> --}}
-    {{-- <div class="add-user-container">
-        <a href="register" class="btn btn-primary mb-3">Add User</a>
-    </div> --}}
+    <div class="add-user-container">
+        <a href="user/import" class="btn btn-primary mb-3">Import Data</a>
+        <a href="user/exportExcel" class="btn btn-primary mb-3">Export Data Excel</a>
+        <a href="user/exportCSV" class="btn btn-primary mb-3">Export Data CSV</a>
+        <a href="user/exportPDF" class="btn btn-primary mb-3">Export PDF</a>
+    </div>
         <div class="containerTable">
             <div class="table-container">
                 <table class="table-striped table userTable">
