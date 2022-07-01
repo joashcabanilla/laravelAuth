@@ -7,6 +7,7 @@ use Excel;
 use PDF;
 use App\Imports\UserInfoImport;
 use App\Exports\UserInfoExport;
+use App\Models\User;
 
 class importExportController extends Controller
 {

@@ -10,7 +10,6 @@ class importUser extends Model
     use HasFactory;
     protected $table ="users";
     protected $fillable = [
-        'id',
         'firstname',
         'middlename',
         'lastname',

@@ -25,7 +25,7 @@ class UserInfoImport implements ToModel,WithHeadingRow
             'phone_number' => $row['phone_number'],
             'address' => $row['address'],
             'email' => $row['email'],
-            'password' => $row['password'],
+            'password' =>  Hash::make($row['password']),
         ]);
     }
 }
